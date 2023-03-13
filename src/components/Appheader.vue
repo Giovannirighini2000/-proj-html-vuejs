@@ -1,9 +1,9 @@
 <template>
-    <li class="basis-img">
+    <li>
 
-        <h4 class="white">
+        <p class="white">
             {{ page }}
-        </h4>
+        </p>
 
     </li>
 </template>
@@ -18,4 +18,10 @@ export default {
     }
 }
 </script>
-<style lang="scss"></style>
+<style lang="scss" scoped>
+.white {
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+</style>
