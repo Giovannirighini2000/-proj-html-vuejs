@@ -1,9 +1,11 @@
 <script >
 import MainHeader from './components/AppMainHeader.vue'
+import AppFristMain from './components/AppFristMain.vue'
+
 
 export default {
   components: {
-
+    AppFristMain,
     MainHeader,
   },
 
@@ -13,6 +15,7 @@ export default {
 
 <template>
   <MainHeader />
+  <AppFristMain />
 </template>
 
 <style lang="scss">
