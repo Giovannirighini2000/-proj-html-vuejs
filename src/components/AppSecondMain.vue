@@ -1,24 +1,24 @@
 <template>
     <div class="back-ground">
         <div class="flex content">
-            <div>
-                <img src="/images/home_img-compressor-400x222.jpg" alt="">
+            <div class="basis-img">
+                <img src="/images/home_img-compressor.jpg" alt="">
 
             </div>
-            <div>
-                <div class="signup-form">
-                    <h3 class="title">Sign Up For A free Training Session!</h3>
-                    <p class="grey">Name..*</p>
-                    <input type="text" class="box white">
-                    <p class="grey">Email</p>
-                    <input type="email" class="box white">
-                    <div>
-                        <button class="button-start">START NOW</button>
-                    </div>
 
+            <div class="signup-form">
+                <h3 class="title">Sign Up For A free Training Session!</h3>
+                <p class="grey">Name..*</p>
+                <input type="text" class="box white">
+                <p class="grey">Email</p>
+                <input type="email" class="box white">
+                <div>
+                    <button class="button-start">START NOW!</button>
                 </div>
 
             </div>
+
+
 
         </div>
 
@@ -33,14 +33,16 @@
 .box {
     background-color: #202325;
     border: 1px solid #282b2e;
-    width: 395px;
+    width: 100%;
     height: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .title {
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    letter-spacing: 1.5px;
+
 
 
 
@@ -48,19 +50,32 @@
 
 .grey {
     color: #737374;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .content {
     justify-content: center;
     gap: 40px;
-    padding: 100px;
+    width: 100%;
+    padding: 100px 0 100px;
 }
 
 .button-start {
-    padding: 12px 158px 12px 158px;
+    width: 100%;
     color: white;
     background-color: #ee6059;
     font-weight: 200;
+    padding: 12px 0 12px 0;
+    margin-top: 20px;
+}
+
+
+.basis-img {
+    margin-left: 10px;
+}
+
+.signup-form {
+    flex-basis: 22%;
+
 }
 </style>

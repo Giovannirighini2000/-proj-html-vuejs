@@ -2,6 +2,11 @@
 import MainHeader from './components/AppMainHeader.vue'
 import AppFristMain from './components/AppFristMain.vue'
 import AppSecondMain from './components/AppSecondMain.vue'
+import AppThreeMain from './components/AppThreeMain.vue'
+import AppFourMain from './components/AppFourMain.vue'
+import AppFiveMain from './components/AppFiveMain.vue'
+import AppMidle from './components/AppMidleJumbo.vue'
+
 
 
 export default {
@@ -9,6 +14,10 @@ export default {
     AppFristMain,
     MainHeader,
     AppSecondMain,
+    AppThreeMain,
+    AppFourMain,
+    AppFiveMain,
+    AppMidle,
   },
 
 
@@ -19,6 +28,10 @@ export default {
   <MainHeader />
   <AppFristMain />
   <AppSecondMain />
+  <AppThreeMain />
+  <AppFourMain />
+  <AppFiveMain />
+  <AppMidle />
 </template>
 
 <style lang="scss">
