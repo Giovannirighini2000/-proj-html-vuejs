@@ -1,12 +1,14 @@
 <script >
 import MainHeader from './components/AppMainHeader.vue'
 import AppFristMain from './components/AppFristMain.vue'
+import AppSecondMain from './components/AppSecondMain.vue'
 
 
 export default {
   components: {
     AppFristMain,
     MainHeader,
+    AppSecondMain,
   },
 
 
@@ -16,6 +18,7 @@ export default {
 <template>
   <MainHeader />
   <AppFristMain />
+  <AppSecondMain />
 </template>
 
 <style lang="scss">
