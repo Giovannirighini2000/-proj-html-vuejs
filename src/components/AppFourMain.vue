@@ -7,43 +7,47 @@
             <img class="xx" src="/images/divider-xx-red.png" alt="">
             <div class="container-card flex">
                 <div class="flex card">
-                    <img src="/images/review_1-compressor.jpg" alt="">
+                    <img class="img-author" src="/images/review_1-compressor.jpg" alt="">
                     <div class="text">
-                        <p class="person">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus quibusdam neque
-                            saepe ex.
-                            Dolores
-                            fuga veniam modi. Debitis, necessitatibus fugiat!</p>
-                        <p class="person">- Tara Smith</p>
+                        <em class="person description flex">"Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+                            quibusdam neque
+
+                            fuga veniam modi. Debitis, necessitatibus fugiat!"</em>
+                        <p class="person author">- Tara Smith</p>
                     </div>
                 </div>
                 <div class="flex card">
-                    <img src="/images/review_2-compressor.jpg" alt="">
+                    <img class="img-author" src="/images/review_3-compressor-2.jpg" alt="">
                     <div class="text">
-                        <p class="person">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus quibusdam neque
-                            saepe ex.
-                            Dolores
-                            fuga veniam modi. Debitis, necessitatibus fugiat!</p>
-                        <p class="person">- Tara Smith</p>
+                        <em class="person description flex">"Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+                            quibusdam neque
+
+                            fuga veniam modi. Debitis, necessitatibus fugiat!"</em>
+                        <p class="person author">- Tara Smith</p>
                     </div>
                 </div>
                 <div class="flex card">
-                    <img src="/images/review_3-compressor-2.jpg" alt="">
+                    <img class="img-author" src="/images/review_2-compressor.jpg" alt="">
                     <div class="text">
-                        <p class="person">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus quibusdam neque
-                            saepe ex.
-                            Dolores
-                            fuga veniam modi. Debitis, necessitatibus fugiat!</p>
-                        <p class="person">- Tara Smith</p>
+                        <em class="person description flex">"Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+                            quibusdam neque
+
+                            fuga veniam modi. Debitis, necessitatibus fugiat!"</em>
+                        <p class="person author">- Tara Smith</p>
                     </div>
                 </div>
                 <div class="flex card">
-                    <img src="/images/review_4-compressor-2.jpg" alt="">
+                    <img class="img-author" src="/images/review_4-compressor-2.jpg" alt="">
                     <div class="text">
-                        <p class="person">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus quibusdam neque
-                            saepe ex.
-                            Dolores
-                            fuga veniam modi. Debitis, necessitatibus fugiat!</p>
-                        <p class="person">- Tara Smith</p>
+                        <em class="person description flex">"Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+                            quibusdam neque
+
+                            fuga veniam modi. Debitis, necessitatibus fugiat!"</em>
+                        <p class="person author">- Tara Smith</p>
                     </div>
 
                 </div>
@@ -61,6 +65,7 @@
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 300px;
 }
 
 .title-main {
@@ -76,23 +81,42 @@
 }
 
 .card {
-    flex-basis: 47%;
+    flex-basis: 48%;
     background-color: #1f2123;
-    padding: 20px;
+    padding: 25px;
 }
 
 .container-card {
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 48px;
     justify-content: center;
+    padding-top: 30px;
 }
 
 .person {
     text-align: start;
+    color: #a9a8a8;
 }
 
 .text {
     color: white;
-    padding: 20px;
+    padding: 0px 15px 15px 15px;
+}
+
+.description {
+    color: #a39d9d;
+    line-height: 30px;
+
+}
+
+.author {
+    padding-top: 10px;
+}
+
+.img-author {
+
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1;
 }
 </style>

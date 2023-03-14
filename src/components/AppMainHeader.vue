@@ -76,6 +76,7 @@ export default {
     background-image: url('/images/home-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 
 }
