@@ -208,7 +208,7 @@ span {
     color: #737170;
     font-size: 20px;
     border: 1px solid #737170;
-    padding: 6px 12px 6px 12px;
+    padding: 8px 20px 8px 20px;
     text-transform: uppercase;
 }
 
