@@ -47,7 +47,7 @@
 .content {
     display: flex;
     align-items: center;
-    padding-right: 60px;
+
 }
 
 .left-content {
@@ -58,14 +58,15 @@
 
 .icons {
     gap: 20px;
+    padding-right: 10px;
 }
 
 .icon {
     padding: 5px;
     color: #ffffff;
     background-color: #ee6059;
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     padding: 10px;
     border: 1px solid #ee6059;
     border-radius: 8%;

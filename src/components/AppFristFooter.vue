@@ -27,7 +27,7 @@
 <style lang="scss" scoped>
 .back-ground-img {
     background-image: url('/images/home-parallax.jpg');
-    height: 250px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
