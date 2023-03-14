@@ -45,7 +45,7 @@
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 150px;
+
 }
 
 .title-main {
@@ -58,6 +58,10 @@
 
 .back-ground {
     background-color: #25292b;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-card-img {

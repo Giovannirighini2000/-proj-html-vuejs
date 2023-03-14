@@ -137,7 +137,7 @@
 }
 
 .back-ground {
-    background-color: #1f2123;
+    background-color: #25292b;
 }
 
 .container-card-img {
@@ -150,7 +150,7 @@
 
 .card-basis {
     flex-basis: calc(33.33% - 40px * 2 / 3);
-    background-color: #25292b;
+    background-color: #1f2123;
 }
 
 .card-basis img {
@@ -215,8 +215,9 @@ span {
 .separed {
     transform: rotate(211deg);
     font-size: 50px;
-    color: #1f2123;
+    color: #25292b;
     margin-bottom: -25px;
+    margin-right: 5px;
 
 }
 </style>

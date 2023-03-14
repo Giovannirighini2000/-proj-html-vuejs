@@ -65,7 +65,7 @@
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 300px;
+
 }
 
 .title-main {
@@ -73,11 +73,15 @@
     font-size: 28px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    padding-top: 100px;
+
 }
 
 .back-ground {
     background-color: #25292b;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {

@@ -10,14 +10,14 @@
                 At Avada Gym,every we do from top to bottom is of the highest quality to ensure we're equipped
                 to help you reach youyr goals of a healthy and fit lifestyle.
             </p>
+            <div class="center">
+                <font-awesome-icon class="separed" icon="fa-solid fa-play" />
 
+            </div>
 
 
         </div>
-        <div class="center">
-            <font-awesome-icon class="separed" icon="fa-solid fa-play" />
 
-        </div>
 
 
     </div>
@@ -26,14 +26,17 @@
 <style lang="scss" scoped>
 .back-ground {
     background-color: #25292b;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+
 
 }
 
@@ -59,7 +62,8 @@
     transform: rotate(211deg);
     font-size: 50px;
     color: #25292b;
-    margin-bottom: -25px;
+    margin-bottom: -95px;
+    margin-right: 5px;
 
 }
 </style>

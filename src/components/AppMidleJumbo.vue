@@ -1,18 +1,18 @@
 <template>
     <div class="back-ground-image">
-        <div class="container-pad">
-            <div class="flex center">
-                <p class="title-text">“ I fear not the man who has practiced 10,000 kicks once, but I fear the man who has
-                    practiced
-                    one kick 10,000 times ”
-                </p>
-                <img class="xx" src="/images/divider-xx-red.png" alt="">
 
-                <span class="basis-text">
-                    BRUCE LEE • QUOTE OF THE DAY
-                </span>
-            </div>
+        <div class="flex center">
+            <p class="title-text">“ I fear not the man who has practiced 10,000 kicks once, but I fear the man who has
+                practiced
+                one kick 10,000 times ”
+            </p>
+            <img class="xx" src="/images/divider-xx-red.png" alt="">
+
+            <span class="basis-text">
+                BRUCE LEE • QUOTE OF THE DAY
+            </span>
         </div>
+
 
 
 
@@ -24,6 +24,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -46,9 +50,7 @@
     flex-wrap: wrap;
 }
 
-.container-pad {
-    padding: 170px;
-}
+
 
 .basis-text {
     flex-basis: 100%;

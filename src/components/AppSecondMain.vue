@@ -36,6 +36,10 @@
 
 .back-ground {
     background-color: #1f2123;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
@@ -43,12 +47,12 @@
     border: 1px solid #282b2e;
     width: 100%;
     height: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .title {
     color: white;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     letter-spacing: 1.5px;
 }
 
@@ -65,7 +69,7 @@
     justify-content: center;
     gap: 40px;
     width: 100%;
-    padding: 100px 0 100px;
+
 }
 
 .button-start {
@@ -79,7 +83,7 @@
 
 
 .basis-img {
-    flex-basis: 51%;
+    flex-basis: 50%;
 }
 
 .signup-form {

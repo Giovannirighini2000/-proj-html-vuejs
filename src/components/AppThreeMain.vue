@@ -97,13 +97,16 @@
 }
 
 .back-ground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 525px;
-
     background-image: url('/images/gym_bkgd_bw-compressor.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 
 
@@ -121,7 +124,7 @@
 
 .content {
     justify-content: center;
-    padding-top: 100px;
+
 }
 
 .text {
