@@ -148,7 +148,7 @@
 }
 
 .back-ground {
-    background-color: #1f2123;
+    background-color: #25292b;
     height: 1700px;
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@
 
 .card-basis {
 
-    background-color: #25292b;
+    background-color: #1f2123;
     display: flex;
     flex-direction: column;
     height: fit-content;

@@ -137,7 +137,7 @@
 }
 
 .back-ground {
-    background-color: #25292b;
+    background-color: #1f2123;
     height: 1000px;
     display: flex;
     align-items: center;
@@ -154,7 +154,7 @@
 
 .card-basis {
     flex-basis: calc(33.33% - 40px * 2 / 3);
-    background-color: #1f2123;
+    background-color: #25292b;
 }
 
 .card-basis img {
@@ -188,6 +188,7 @@ span {
     color: white;
     border: 1px solid #1f2123;
     background-color: #1f2123;
+    border-radius: 8%;
 }
 
 
@@ -219,7 +220,7 @@ span {
 .separed {
     transform: rotate(211deg);
     font-size: 50px;
-    color: #25292b;
+    color: #1f2123;
     margin-bottom: -125px;
     margin-right: 5px;
 
