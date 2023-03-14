@@ -44,19 +44,22 @@ export default {
                 <Appheader v-for="(nav, i) in pageNav" :key="i" :page="nav.page" />
             </ul>
         </div>
-        <div class="flex title margin-top-title">
-            <h1 class="up-size title-hero">
-                no pain no gain
-            </h1>
-        </div>
-        <div class="flex title">
-            <p class="white">
-                motivation is what gets you started. Habit is what keeps you going.
-            </p>
+        <div class="flex position">
+            <div class="flex title ">
+                <h1 class="up-size title-hero">
+                    no pain no gain
+                </h1>
+            </div>
+            <div class="flex title">
+                <p class="white">
+                    motivation is what gets you started. Habit is what keeps you going.
+                </p>
 
-        </div>
-        <div class="flex title margin-button">
-            <button class="button-join up-size">join us today</button>
+            </div>
+            <div class="flex title margin-button">
+                <button class="button-join up-size">join us today</button>
+
+            </div>
 
         </div>
 
@@ -72,14 +75,24 @@ export default {
 }
 
 .back-ground {
-
+    position: relative;
     background-image: url('/images/home-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-
+    height: 100vh;
 }
+
+.position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .center {
     align-items: center;
@@ -100,9 +113,7 @@ export default {
     flex-direction: row;
 }
 
-.margin-top-title {
-    margin-top: 380px;
-}
+
 
 .title-hero {
     font-weight: 900;
@@ -127,6 +138,5 @@ export default {
 
 .margin-button {
     margin-top: 20px;
-    padding-bottom: 500px;
 }
 </style>

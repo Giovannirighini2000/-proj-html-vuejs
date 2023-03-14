@@ -8,6 +8,9 @@ import AppFiveMain from './components/AppFiveMain.vue'
 import AppMidle from './components/AppMidleJumbo.vue'
 import AppCardFrist from './components/AppCardFrist.vue'
 import AppCardSecond from './components/AppCardSecond.vue'
+import AppFristFooter from './components/AppFristFooter.vue'
+import AppSecondFooter from './components/AppSecondFooter.vue'
+import AppLastFooter from './components/AppLastFooter.vue'
 
 
 
@@ -22,6 +25,9 @@ export default {
     AppMidle,
     AppCardFrist,
     AppCardSecond,
+    AppFristFooter,
+    AppSecondFooter,
+    AppLastFooter,
   },
 
 
@@ -37,7 +43,10 @@ export default {
   <AppFiveMain />
   <AppMidle />
   <AppCardFrist />
-  <AppCardSecond/>
+  <AppCardSecond />
+  <AppFristFooter />
+  <AppSecondFooter />
+  <AppLastFooter />
 </template>
 
 <style lang="scss">
