@@ -133,11 +133,15 @@
     font-size: 28px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    padding-top: 100px;
+
 }
 
 .back-ground {
     background-color: #25292b;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-card-img {
@@ -196,7 +200,7 @@ span {
     justify-content: center;
     flex-direction: row;
     padding-top: 80px;
-    padding-bottom: 150px;
+
 }
 
 .button-trainers {
@@ -216,7 +220,7 @@ span {
     transform: rotate(211deg);
     font-size: 50px;
     color: #25292b;
-    margin-bottom: -25px;
+    margin-bottom: -125px;
     margin-right: 5px;
 
 }
