@@ -63,6 +63,7 @@
 .container-card-img {
     flex-wrap: wrap;
     gap: 45px;
+    padding-top: 40px;
 }
 
 .img {

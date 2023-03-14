@@ -70,10 +70,10 @@
 
 .title-main {
     color: white;
-
     font-size: 28px;
     margin-bottom: 20px;
     text-transform: uppercase;
+    padding-top: 100px;
 }
 
 .back-ground {

@@ -6,6 +6,8 @@ import AppThreeMain from './components/AppThreeMain.vue'
 import AppFourMain from './components/AppFourMain.vue'
 import AppFiveMain from './components/AppFiveMain.vue'
 import AppMidle from './components/AppMidleJumbo.vue'
+import AppCardFrist from './components/AppCardFrist.vue'
+import AppCardSecond from './components/AppCardSecond.vue'
 
 
 
@@ -18,6 +20,8 @@ export default {
     AppFourMain,
     AppFiveMain,
     AppMidle,
+    AppCardFrist,
+    AppCardSecond,
   },
 
 
@@ -32,6 +36,8 @@ export default {
   <AppFourMain />
   <AppFiveMain />
   <AppMidle />
+  <AppCardFrist />
+  <AppCardSecond/>
 </template>
 
 <style lang="scss">

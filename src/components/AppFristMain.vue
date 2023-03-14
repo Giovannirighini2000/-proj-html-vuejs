@@ -59,7 +59,7 @@
     transform: rotate(211deg);
     font-size: 50px;
     color: #25292b;
-    margin-bottom: -20px;
+    margin-bottom: -25px;
 
 }
 </style>

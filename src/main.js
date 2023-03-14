@@ -8,6 +8,11 @@ import { faLinkSlash } from '@fortawesome/free-solid-svg-icons'
 import { faBicycle } from '@fortawesome/free-solid-svg-icons'
 import { faCloud } from '@fortawesome/free-solid-svg-icons'
 import { faHeartPulse } from '@fortawesome/free-solid-svg-icons'
-library.add(faPlay, faLinkSlash, faBicycle, faCloud, faHeartPulse)
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+
+library.add(faPlay, faLinkSlash, faBicycle, faCloud, faHeartPulse, faFacebookF,
+    faTwitter, faInstagram)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
