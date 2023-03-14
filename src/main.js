@@ -11,8 +11,9 @@ import { faHeartPulse } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faPlay, faLinkSlash, faBicycle, faCloud, faHeartPulse, faFacebookF,
-    faTwitter, faInstagram)
+    faTwitter, faInstagram, faMagnifyingGlass)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

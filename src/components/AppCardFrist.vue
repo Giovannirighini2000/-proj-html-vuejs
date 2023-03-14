@@ -7,7 +7,7 @@
             <img class="xx" src="/images/divider-xx-red.png" alt="">
             <div class="container-card-img">
                 <div class="card-basis">
-                    <img src="/images/trainer1.jpg" alt="">
+                    <img class="img-hover" src="/images/trainer1.jpg" alt="">
                     <div class="card">
                         <span class="person">
                             Ann baker
@@ -38,7 +38,7 @@
                 </div>
                 <div class="card-basis">
                     <div class="flex">
-                        <img src="/images/trainer3.jpg" alt="">
+                        <img class="img-hover" src="/images/trainer3.jpg" alt="">
                     </div>
 
                     <div class="card">
@@ -70,7 +70,7 @@
 
                 </div>
                 <div class="card-basis">
-                    <img src="/images/trainer4.jpg" alt="">
+                    <img class="img-hover" src="/images/trainer4.jpg" alt="">
                     <div class="card">
                         <span class="person">
                             Peter Rice
@@ -224,5 +224,9 @@ span {
     margin-bottom: -125px;
     margin-right: 5px;
 
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
 }
 </style>
