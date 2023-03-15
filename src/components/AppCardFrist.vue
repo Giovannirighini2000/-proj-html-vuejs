@@ -7,7 +7,8 @@
             <img class="xx" src="/images/divider-xx-red.png" alt="">
             <div class="container-card-img">
                 <div class="card-basis">
-                    <img class="img-hover" src="/images/trainer1.jpg" alt="">
+                    <a href=""><img class="img-hover" src="/images/trainer1.jpg" alt=""></a>
+
                     <div class="card">
                         <span class="person">
                             Ann baker
@@ -22,23 +23,34 @@
                             consectetur adipisicing elit. Obcaecati,
                             quibusdam?Lorem, ipsum.
                         </p>
-                        <div class="icons flex">
-                            <font-awesome-icon class="icon" icon="fa-brands fa-facebook-f" />
-
-
-                            <font-awesome-icon class="icon" icon="fa-brands fa-twitter" />
-
-
-                            <font-awesome-icon class="icon" icon="fa-brands fa-instagram" />
-
-                        </div>
+                        <ul class="icons flex">
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <font-awesome-icon icon="fa-brands fa-facebook-f" class="icon" />
+                                    <span class="icon-label">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-link">
+                                    <font-awesome-icon icon="fa-brands fa-twitter" class="icon" />
+                                    <span class="icon-label">Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-link">
+                                    <font-awesome-icon icon="fa-brands fa-instagram" class="icon" />
+                                    <span class="icon-label">Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
 
                     </div>
 
                 </div>
                 <div class="card-basis">
                     <div class="flex">
-                        <img class="img-hover" src="/images/trainer3.jpg" alt="">
+                        <a href=""> <img class="img-hover" src="/images/trainer3.jpg" alt=""></a>
+
                     </div>
 
                     <div class="card">
@@ -55,22 +67,33 @@
                             consectetur adipisicing elit. Obcaecati,
                             quibusdam?Lorem, ipsum.
                         </p>
-                        <div class="icons flex">
-                            <font-awesome-icon class="icon" icon="fa-brands fa-facebook-f" />
-
-
-                            <font-awesome-icon class="icon" icon="fa-brands fa-twitter" />
-
-
-                            <font-awesome-icon class="icon" icon="fa-brands fa-instagram" />
-
-                        </div>
+                        <ul class="icons flex">
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <font-awesome-icon icon="fa-brands fa-facebook-f" class="icon" />
+                                    <span class="icon-label">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-link">
+                                    <font-awesome-icon icon="fa-brands fa-twitter" class="icon" />
+                                    <span class="icon-label">Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-link">
+                                    <font-awesome-icon icon="fa-brands fa-instagram" class="icon" />
+                                    <span class="icon-label">Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
 
                     </div>
 
                 </div>
                 <div class="card-basis">
-                    <img class="img-hover" src="/images/trainer4.jpg" alt="">
+                    <a href=""><img class="img-hover" src="/images/trainer4.jpg" alt=""></a>
+
                     <div class="card">
                         <span class="person">
                             Peter Rice
@@ -84,19 +107,26 @@
                             consectetur adipisicing elit. Obcaecati,
                             quibusdam?Lorem, ipsum.
                         </p>
-                        <div class="icons flex">
-
-                            <font-awesome-icon class="icon" icon="fa-brands fa-facebook-f" />
-
-
-                            <font-awesome-icon class="icon" icon="fa-brands fa-twitter" />
-
-
-                            <font-awesome-icon class="icon" icon="fa-brands fa-instagram" />
-
-
-
-                        </div>
+                        <ul class="icons flex">
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <font-awesome-icon icon="fa-brands fa-facebook-f" class="icon" />
+                                    <span class="icon-label">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-link">
+                                    <font-awesome-icon icon="fa-brands fa-twitter" class="icon" />
+                                    <span class="icon-label">Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-link">
+                                    <font-awesome-icon icon="fa-brands fa-instagram" class="icon" />
+                                    <span class="icon-label">Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
 
                     </div>
 
@@ -197,6 +227,33 @@ span {
     gap: 10px;
 }
 
+
+.icon-label {
+    display: none;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.icon-link:hover .icon-label {
+    display: block;
+}
+
+.icon-link:hover .icon {
+    background-color: #1a1c1e;
+    border-color: #1a1c1e;
+
+}
+
+.icon-link {
+    position: relative;
+}
+
 .button-position {
     justify-content: center;
     flex-direction: row;
@@ -211,6 +268,12 @@ span {
     border: 1px solid #737170;
     padding: 8px 20px 8px 20px;
     text-transform: uppercase;
+}
+
+.button-trainers:hover {
+    color: rgba(255, 255, 255, 0.722);
+    border-color: rgba(255, 255, 255, 0.721);
+
 }
 
 .center-separed {

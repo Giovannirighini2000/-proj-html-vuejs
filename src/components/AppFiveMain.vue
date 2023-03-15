@@ -7,27 +7,33 @@
             <img class="xx" src="/images/divider-xx-red.png" alt="">
             <div class="container-card-img flex">
                 <div class="card">
-                    <img class="img" src="/images/home-image1.jpg" alt="">
+                    <a href=""><img class="img" src="/images/home-image1.jpg" alt=""></a>
+
 
                 </div>
                 <div class="card">
-                    <img class="img" src="/images/home-image2.jpg" alt="">
+                    <a href=""><img class="img" src="/images/home-image2.jpg" alt=""></a>
+
 
                 </div>
                 <div class="card">
-                    <img class="img" src="/images/home-image3.jpg" alt="">
+                    <a href=""><img class="img" src="/images/home-image3.jpg" alt=""></a>
+
 
                 </div>
                 <div class="card">
-                    <img class="img" src="/images/home-image4.jpg" alt="">
+                    <a href=""><img class="img" src="/images/home-image4.jpg" alt=""></a>
+
 
                 </div>
                 <div class="card">
-                    <img class="img" src="/images/home-image54.jpg" alt="">
+                    <a href=""><img class="img" src="/images/home-image54.jpg" alt=""></a>
+
 
                 </div>
                 <div class="card">
-                    <img class="img" src="/images/home-image6.jpg" alt="">
+                    <a href=""><img class="img" src="/images/home-image6.jpg" alt=""></a>
+
 
                 </div>
 

@@ -7,13 +7,15 @@
                     <li class="andress">12345 North Main Street New York,
                         NY 555555
                     </li>
-                    <li>Phone: 1.800.555.6789</li>
-                    <li>Email: info@your-domain.com</li>
+                    <li>Phone: <a href="" class="hover-click">1.800.555.6789</a> </li>
+                    <li>Email: <a href="" class="hover-click">info@your-domain.com</a> </li>
                 </ul>
                 <ul class="basis-posts">
                     <li class="mini-title">RECENT POSTS</li>
-                    <li class="border-bottom">> Train with free weights or your body weight?</li>
-                    <li class="border-bottom">> Nutritional advice that will keep you training</li>
+                    <li class="border-bottom"><a href="" class="hover-click">> Train with free weights or your body
+                            weight?</a> </li>
+                    <li class="border-bottom"><a href="" class="hover-click">> Nutritional advice that will keep you
+                            training</a> </li>
                 </ul>
                 <ul class="basis-opening">
                     <li class="mini-title">OPENING TIMES</li>
@@ -25,7 +27,7 @@
                     </li>
                 </ul>
                 <div>
-                    <img src="/images/gym_ad-compressor.jpg" alt="">
+                    <img class="hover-img" src="/images/gym_ad-compressor.jpg" alt="">
                 </div>
 
 
@@ -92,5 +94,13 @@ ul {
 
 .andress {
     padding-right: 20px;
+}
+
+.hover-click:hover {
+    color: #ed6059;
+}
+
+.hover-img:hover {
+    transform: scale(1.1);
 }
 </style>

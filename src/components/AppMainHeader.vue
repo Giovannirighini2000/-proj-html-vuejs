@@ -38,10 +38,12 @@ export default {
 <template>
     <div class="back-ground ">
         <div class="flex center">
-            <img class="logo-gym" src="/images/gym_logo_2x.png" alt="">
+            <a href=""><img class="logo-gym" src="/images/gym_logo_2x.png" alt=""></a>
+
             <ul class="flex gap">
 
-                <Appheader v-for="(nav, i) in pageNav" :key="i" :page="nav.page" />
+                <Appheader v-for="(nav, i) in pageNav" :key="i" :page="nav.page"
+                    v-bind:class="{ 'first-child': i === 0 }" />
             </ul>
         </div>
         <div class="flex position">
@@ -57,7 +59,7 @@ export default {
 
             </div>
             <div class="flex title margin-button">
-                <button class="button-join up-size">join us today</button>
+                <button class="button-join up-size"><a href="">join us today</a> </button>
 
             </div>
 
@@ -91,6 +93,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
 
@@ -133,10 +136,30 @@ export default {
     color: #737170;
     font-size: 20px;
     border: 1px solid #737170;
-    padding: 8px 20px 8px 20px;
+    padding: 10px 25px 10px 25px;
+}
+
+.button-join:hover {
+    color: rgba(255, 255, 255, 0.722);
+    border-color: rgba(255, 255, 255, 0.721);
+
 }
 
 .margin-button {
     margin-top: 20px;
+}
+
+.gap .first-child {
+    color: #ed6059;
+}
+
+.gap li:hover {
+    color: #ed6059;
+}
+
+.gap li {
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
 }
 </style>

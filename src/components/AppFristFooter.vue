@@ -42,8 +42,13 @@
     color: #c3bab6;
     font-size: 18px;
     border: 1px solid #c3bab6;
-    padding: 8px 20px 8px 20px;
+    padding: 12px 25px 12px 25px;
     text-transform: uppercase;
+}
+
+.button-join:hover {
+    color: rgba(255, 255, 255, 0.72);
+    border-color: rgba(255, 255, 255, 0.72);
 }
 
 .content {
@@ -65,7 +70,7 @@
 
 .title-main {
     color: white;
-    font-size: 28px;
+    font-size: 32px;
     margin-bottom: 20px;
 
 }

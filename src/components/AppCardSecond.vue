@@ -8,20 +8,25 @@
             <div class="flex gap-card">
                 <div class="container-card-img">
                     <div class="card-basis">
-                        <div class="img-hover-1">
-                            <div class="hover-icons ">
-                                <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
-                                <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
+                        <a href="">
+                            <div class="img-hover-1">
+                                <div class="hover-icons ">
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
 
+
+                                </div>
 
                             </div>
+                        </a>
 
-                        </div>
 
                         <div class="card">
-                            <span class="person">
-                                Train with free weights or your body weight?
-                            </span>
+                            <a href=""><span class="person">
+                                    Train with free weights or your body weight?
+                                </span>
+                            </a>
+
 
 
                             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor
@@ -34,19 +39,24 @@
 
                     </div>
                     <div class="card-basis ">
-                        <div class="img-hover-2">
-                            <div class="hover-icons ">
-                                <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
-                                <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
+                        <a href="">
+                            <div class="img-hover-2">
+                                <div class="hover-icons ">
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
 
+
+                                </div>
 
                             </div>
+                        </a>
 
-                        </div>
                         <div class="card">
-                            <span class="person">
-                                To be number one, train like you’re number two
-                            </span>
+                            <a href=""><span class="person">
+                                    To be number one, train like you’re number two
+                                </span>
+                            </a>
+
 
                             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor
                                 vitae
@@ -63,20 +73,25 @@
                 </div>
                 <div class="container-card-img">
                     <div class="card-basis">
-                        <div class="img-hover-3">
-                            <div class="hover-icons ">
-                                <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
-                                <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
+                        <a href="">
+                            <div class="img-hover-3">
+                                <div class="hover-icons ">
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
 
+
+                                </div>
 
                             </div>
+                        </a>
 
-                        </div>
 
                         <div class="card">
-                            <span class="person">
-                                Nutritional advice that will keep you training
-                            </span>
+                            <a href=""><span class="person">
+                                    Nutritional advice that will keep you training
+                                </span>
+                            </a>
+
 
 
                             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor
@@ -89,19 +104,24 @@
 
                     </div>
                     <div class="card-basis">
-                        <div class="img-hover-4">
-                            <div class="hover-icons ">
-                                <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
-                                <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
+                        <a href="">
+                            <div class="img-hover-4">
+                                <div class="hover-icons ">
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
 
+
+                                </div>
 
                             </div>
+                        </a>
 
-                        </div>
                         <div class="card">
-                            <span class="person">
-                                Top 5 mistakes every gym member makes
-                            </span>
+                            <a href=""><span class="person">
+                                    Top 5 mistakes every gym member makes
+                                </span>
+                            </a>
+
 
                             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor
                                 vitae
@@ -118,19 +138,24 @@
                 </div>
                 <div class="container-card-img">
                     <div class="card-basis">
-                        <div class="img-hover-5">
-                            <div class="hover-icons ">
-                                <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
-                                <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
+                        <a href="">
+                            <div class="img-hover-5">
+                                <div class="hover-icons ">
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
 
+
+                                </div>
 
                             </div>
+                        </a>
 
-                        </div>
                         <div class="card">
-                            <span class="person">
-                                Simple principles for your next workout
-                            </span>
+                            <a href=""><span class="person">
+                                    Simple principles for your next workout
+                                </span>
+                            </a>
+
 
                             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor
                                 vitae
@@ -142,19 +167,24 @@
 
                     </div>
                     <div class="card-basis ">
-                        <div class="img-hover-6">
-                            <div class="hover-icons ">
-                                <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
-                                <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
+                        <a href="">
+                            <div class="img-hover-6">
+                                <div class="hover-icons ">
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-link-slash" />
+                                    <font-awesome-icon class="icon" icon="fa-solid fa-magnifying-glass" />
 
+
+                                </div>
 
                             </div>
+                        </a>
 
-                        </div>
                         <div class="card ">
-                            <span class="person">
-                                The myths of shedding body fat explored
-                            </span>
+                            <a href=""><span class="person">
+                                    The myths of shedding body fat explored
+                                </span>
+                            </a>
+
 
                             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor
                                 vitae
@@ -264,6 +294,12 @@ span {
     text-transform: uppercase;
 }
 
+.button-trainers:hover {
+    color: rgba(255, 255, 255, 0.722);
+    border-color: rgba(255, 255, 255, 0.721);
+
+}
+
 .gap-card {
     gap: 25px;
 }
@@ -323,6 +359,9 @@ span {
     transform-origin: left;
 }
 
+.card-basis:hover .person {
+    color: #ed6059;
+}
 
 
 .hover-icons {

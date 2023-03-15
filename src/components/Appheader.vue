@@ -1,9 +1,9 @@
 <template>
     <li>
 
-        <p class="white">
-            {{ page }}
-        </p>
+        <a href="">{{ page }}</a>
+
+
 
     </li>
 </template>
@@ -18,10 +18,4 @@ export default {
     }
 }
 </script>
-<style lang="scss" scoped>
-.white {
-    color: white;
-    font-weight: 200;
-    text-transform: uppercase;
-}
-</style>
+<style lang="scss" scoped></style>
