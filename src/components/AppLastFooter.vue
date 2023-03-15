@@ -131,8 +131,8 @@
 
 .return {
     position: absolute;
-    top: 50%;
-    right: 20px;
+    top: 40%;
+    right: 30px;
     color: white;
 }
 

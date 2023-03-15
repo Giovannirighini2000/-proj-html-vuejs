@@ -118,7 +118,14 @@
     width: 60px;
     height: 60px;
     color: #ee6059;
+    transition: transform 0.2s ease-in-out;
 
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    border: 5px solid currentColor;
+    filter: blur(1px);
 }
 
 
