@@ -14,7 +14,7 @@
                     <p class="grey">Email</p>
                     <input type="email" class="box white">
                     <div>
-                        <button class="button-start">START NOW!</button>
+                        <button class="button-start"><a href="">START NOW!</a> </button>
                     </div>
 
                 </div>
@@ -48,6 +48,7 @@
     width: 100%;
     height: 30px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .title {
